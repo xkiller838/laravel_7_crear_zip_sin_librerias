@@ -17,8 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//ruta para almacenar los pdfs
 Route::get('index', 'ZipController@index')->name('index');
 
+//ruta para descargar el zip
 Route::get('zip', 'ZipController@desascargar_zip')->name('zip');
 
+//ruta para guardar el zip
 Route::post('guardar', 'ZipController@guardar_archivo')->name('guardar');
