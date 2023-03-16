@@ -11,7 +11,7 @@
 - El boton resaltado en rojo permite la descarga del pdf siempre que alla uno.
 - Esta es la vista inicial del sistema cuyo unico cambio es el agregar el boton para descargar el pdf.
 
-![img-1](https://user-images.githubusercontent.com/33810066/225085005-58f3d551-34d6-4a89-9d1e-e1c5a5e85d07.png)
+![img-1](https://user-images.githubusercontent.com/33810066/225772644-c4131893-d84d-44c0-8a86-5a693b4c963d.png)
 
 ## Guardar un pdf para descargarlo en un zip
 -Ingresa a la url para guardar agregando lo siguiente 
@@ -20,7 +20,8 @@
 ~~~
 -La vista generada sera la siguiente.
 -Se debe agregar un nombre y el pdf para poder guardar luego volver a la vista inicial y descargar desde el boton
-![img-2](https://user-images.githubusercontent.com/33810066/225086656-18d4ccb0-82f2-43b1-8c4f-76cc0c013e5e.png)
+
+![img-2](https://user-images.githubusercontent.com/33810066/225772778-71af4200-014e-41ba-99ea-b189fa964a32.png)
 
 -El pdf se genera el la carpeta publica del proyecto con un nombre tomado desde el controlador.
 
